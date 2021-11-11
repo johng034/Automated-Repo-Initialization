@@ -30,9 +30,9 @@ function create() {
         then
             cd $personal$2
             git init
+            git remote add origin git@github.com:$personal_user/$2.git
             git config user.name $personal_user
             git config user.email $personal_email
-            git remote add origin git@github.com:$personal_user/$2.git
             touch README.md
             git add .
             git commit -m "Initial commit"
@@ -48,9 +48,9 @@ function create() {
         then
             cd $school$2
             git init
+            git remote add origin git@github.com:$personal_user/$2.git
             git config user.name $personal_user
             git config user.email $personal_email
-            git remote add origin git@github.com:$personal_user/$2.git
             touch README.md
             git add .
             git commit -m "Initial commit"
