@@ -12,12 +12,12 @@ Examples:
 - `create school final-project`
 - `create work anomaly-detection`
 
-There are two folders; one for Windows OS and one for Mac OS.
+There are two folders in this repository; one for Windows OS and one for Mac OS.
 
 # Setup
 First you have to clone this repository ([click here](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) for instructions on how to clone a GitHub repository)
 
-**Important:** Before continuing on to the next steps, make sure you fill in your details (your username(s), personal access token(s), etc) in the code or else the command will not work. I left explanations on how to do this in the code, but feel free to reach out to me if there are any questions.
+**Important:** Before continuing on to the next steps, make sure you fill in your details (your username(s), personal access token(s), etc) in the code because the command will not work without this information. I left explanations on how to do this in the code, but feel free to reach out to me if there are any questions. Remember to never share your personal access token with anyone.
 ## Mac OS
 - Open the terminal and type: `$ cd /etc/bashrc`
 - Once inside the "bashrc" folder, add the custom command by typing: `$ source (path/to/shell-file).sh`
